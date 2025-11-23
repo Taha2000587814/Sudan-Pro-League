@@ -45,6 +45,8 @@ Wishlist and follow the project to stay updated on release dates, trailers, and 
 SPL is built for fans of Sudanese football. We welcome feedback, ideas, and contributions to make the game better.  
 Join the community, share your favorite clubs, and help shape the future of SPL.
 
+👉 Connect with us on Discord: [https://discord.gg/XUSbjU94fX](https://discord.gg/XUSbjU94fX)
+
 ---
 
 ## 🌍 Credits
