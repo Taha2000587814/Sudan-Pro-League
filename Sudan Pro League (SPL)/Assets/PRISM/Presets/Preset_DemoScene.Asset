@@ -3,8 +3,9 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -31,14 +32,11 @@ MonoBehaviour:
   useBloomStability: 0
   useBloomLensdirt: 1
   bloomLensdirtIntensity: 0.764
-  bloomLensdirtTexture: {fileID: 2800000, guid: 9337bbb7e51e1114fb460d8ea3a59af0,
-    type: 3}
+  bloomLensdirtTexture: {fileID: 2800000, guid: 9337bbb7e51e1114fb460d8ea3a59af0, type: 3}
   useFullScreenBlur: 0
-  bloomFlareRadialColorTex: {fileID: 2800000, guid: 7fbdc23b3e999624d95195ab44bf4470,
-    type: 3}
+  bloomFlareRadialColorTex: {fileID: 2800000, guid: 7fbdc23b3e999624d95195ab44bf4470, type: 3}
   bloomFlareHaloTex: {fileID: 2800000, guid: b2117cc1a03800b419d6423654894e78, type: 3}
-  bloomFlareStarburstTex: {fileID: 2800000, guid: 8c404711bb9951e4499be728c11b3f26,
-    type: 3}
+  bloomFlareStarburstTex: {fileID: 2800000, guid: 8c404711bb9951e4499be728c11b3f26, type: 3}
   bloomFlareStrength: 1.9
   bloomFlareLensDirtIntensityMultiplier: 4.24
   bloomFlareHaloWidth: 0.5
@@ -115,8 +113,7 @@ MonoBehaviour:
   twoDLookupTex: {fileID: 2800000, guid: 09acb3bbbdf581949ba8d59204c2248e, type: 3}
   useSecondLut: 0
   secondaryLutPath: LUT-amidgenofbluegreen2lighterblack
-  secondaryTwoDLookupTex: {fileID: 2800000, guid: 1da997f73b5bb7b448d1eca182484347,
-    type: 3}
+  secondaryTwoDLookupTex: {fileID: 2800000, guid: 1da997f73b5bb7b448d1eca182484347, type: 3}
   secondaryLutLerpAmount: 0
   useNV: 0
   nvColor: {r: 0, g: 1, b: 0.08965492, a: 0}

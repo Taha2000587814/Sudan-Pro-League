@@ -3,8 +3,9 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -31,13 +32,13 @@ MonoBehaviour:
   useBloomStability: 0
   useBloomLensdirt: 0
   bloomLensdirtIntensity: 0.03
-  bloomLensdirtTexture: {fileID: 2800000, guid: 9337bbb7e51e1114fb460d8ea3a59af0,
-    type: 3}
+  bloomLensdirtTexture: {fileID: 2800000, guid: 9337bbb7e51e1114fb460d8ea3a59af0, type: 3}
   useFullScreenBlur: 0
   bloomFlareRadialColorTex: {fileID: 0}
   bloomFlareHaloTex: {fileID: 0}
   bloomFlareStarburstTex: {fileID: 0}
   bloomFlareStrength: 1.9
+  bloomFlareLensDirtIntensityMultiplier: 1.9
   bloomFlareHaloWidth: 0.5
   bloomFlareGhostDispersal: 0.11
   bloomFlareChromaticDistortion: 1.03
@@ -65,8 +66,10 @@ MonoBehaviour:
   dofBlurSkybox: 0
   dofNearFocusDistance: 56.6
   dofForceEnableMedian: 0
+  dofDownsample: 2
   useAmbientObscurance: 1
   aoIntensity: 0.7
+  aoContrast: 0.6
   aoRadius: 1
   aoBias: 0.05
   aoDownsample: 1
@@ -110,8 +113,7 @@ MonoBehaviour:
   twoDLookupTex: {fileID: 2800000, guid: 4ad959491fd533a4195290582ac4ad0f, type: 3}
   useSecondLut: 0
   secondaryLutPath: 
-  secondaryTwoDLookupTex: {fileID: 2800000, guid: 4ad959491fd533a4195290582ac4ad0f,
-    type: 3}
+  secondaryTwoDLookupTex: {fileID: 2800000, guid: 4ad959491fd533a4195290582ac4ad0f, type: 3}
   secondaryLutLerpAmount: 0
   useNV: 0
   nvColor: {r: 0.11724138, g: 0, b: 1, a: 0}

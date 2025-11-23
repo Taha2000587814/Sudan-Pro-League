@@ -3,8 +3,9 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -37,6 +38,7 @@ MonoBehaviour:
   bloomFlareHaloTex: {fileID: 0}
   bloomFlareStarburstTex: {fileID: 0}
   bloomFlareStrength: 1.9
+  bloomFlareLensDirtIntensityMultiplier: 1.9
   bloomFlareHaloWidth: 0.5
   bloomFlareGhostDispersal: 0.11
   bloomFlareChromaticDistortion: 1.03
@@ -64,8 +66,10 @@ MonoBehaviour:
   dofBlurSkybox: 0
   dofNearFocusDistance: 20
   dofForceEnableMedian: 0
+  dofDownsample: 2
   useAmbientObscurance: 0
   aoIntensity: 0.7
+  aoContrast: 0.6
   aoRadius: 1
   aoBias: 0.1
   aoDownsample: 0
