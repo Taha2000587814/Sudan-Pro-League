@@ -1,0 +1,38 @@
+*******************************************************************
+*                             INFO                                *
+*******************************************************************
+
+InfoTitle Angry Mesh
+InfoPreset Use this preset to convert Angry Mesh Grass prefabs.
+InfoStatus ● ● ● ● ●
+InfoOnline https://assetstore.unity.com/publishers/32104
+
+*******************************************************************
+*                             PRESET                              *
+*******************************************************************
+
+Include Use Default Grass Masks
+Include Use Default Grass Settings
+
+*******************************************************************
+
+// Set default values
+Material SET_COLOR _SubsurfaceColor 0.1 0.2 0.1 1.0
+Material SET_FLOAT _RenderNormals 0
+
+Material SET_VECTOR _VertexOcclusionColor 0.2 0.2 0.2 0.2
+Material SET_FLOAT _MainOcclusionValue 0.5
+Material SET_FLOAT _SecondOcclusionValue 0.5
+
+*******************************************************************
+
+// Copy material props
+Material COPY_COLOR _Color _MainColor
+Material COPY_COLOR _Color _MainColorVariation
+Material COPY_TEX _MainTex _MainAlbedoTex
+Material COPY_ST_AS_VECTOR _MainTex _MainUVs
+Material COPY_TEX _BumpMap _MainNormalTex
+Material COPY_FLOAT _BumpScale _MainNormalValue
+Material COPY_TEX _MetalicRAOGSmothnessA _MainMaskTex
+Material SET_FLOAT _MainMetallicValue 0
+Material COPY_FLOAT _Glossiness _MainSmoothnessValue

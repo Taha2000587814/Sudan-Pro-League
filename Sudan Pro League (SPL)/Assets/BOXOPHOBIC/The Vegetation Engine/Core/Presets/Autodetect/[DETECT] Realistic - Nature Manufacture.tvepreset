@@ -1,0 +1,16 @@
+//Created: 10.11.2022
+//Tested: Forest Environment - Dynamic Nature
+//Pipeline: HDRP 12
+
+*******************************************************************
+*                             DETECT                              *
+*******************************************************************
+
+Detect NatureManufacture
+Preset Realistic - Nature Manufacture
+
+Detect NatureManufacture && Layered
+Preset Realistic - Unsupported - Nature Manufacture
+
+
+

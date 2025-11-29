@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b2425a2284af743826c689403a4924, type: 3}
+  m_Name: Is Pass Shadow
+  m_EditorClassIdentifier: 
+  m_functionInfo: "// Made with Amplify Shader Editor\n// Available at the Unity
+    Asset Store - http://u3d.as/y3X \n/*ASEBEGIN\nVersion=18935\n1920;0;1920;1029;1891.37;791.9473;1.354166;True;False\nNode;AmplifyShaderEditor.FunctionInput;6;-768,-384;Inherit;False;True;1;1;True;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionInput;7;-768,-256;Inherit;False;False;1;0;True;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionSwitchByPipeline;34;-256,-384;Inherit;False;4;0;FLOAT;0;False;3;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.CustomExpressionNode;33;-512,-384;Inherit;False;float
+    result@$$#if defined(UNITY_PASS_SHADOWCASTER)$\tresult = True@$#else$\tresult
+    = False@$#endif$$return result@$;1;Create;2;True;True;FLOAT;0;In;;Inherit;False;True;False;FLOAT;0;In;;Inherit;False;Shadow
+    Pass Check;True;False;0;;False;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.CustomExpressionNode;35;-512,-256;Inherit;False;float
+    result@$$#if SHADERPASS == SHADERPASS_SHADOWCASTER$\tresult = True@$#else$\tresult
+    = False@$#endif$$return result@$;1;Create;2;True;True;FLOAT;0;In;;Inherit;False;True;False;FLOAT;0;In;;Inherit;False;Shadow
+    Pass Check;True;False;0;;False;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.CustomExpressionNode;36;-512,-128;Inherit;False;float
+    result@$$#if SHADERPASS == SHADERPASS_SHADOWS$\tresult = True@$#else$\tresult
+    = False@$#endif$$return result@$;1;Create;2;True;True;FLOAT;0;In;;Inherit;False;True;False;FLOAT;0;In;;Inherit;False;Shadow
+    Pass Check;True;False;0;;False;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionOutput;0;0,-384;Inherit;False;True;-1;;0;False;1;0;FLOAT;0;False;1;FLOAT;0\nWireConnection;34;0;33;0\nWireConnection;34;3;33;0\nWireConnection;34;1;35;0\nWireConnection;34;2;36;0\nWireConnection;33;0;6;0\nWireConnection;33;1;7;0\nWireConnection;35;0;6;0\nWireConnection;35;1;7;0\nWireConnection;36;0;6;0\nWireConnection;36;1;7;0\nWireConnection;0;0;34;0\nASEEND*/\n//CHKSM=0085FEC3DE3C56270FD12D27BEFAF43E99B5FD53"
+  m_functionName: 
+  m_description: 
+  m_additionalIncludes:
+    m_additionalIncludes: []
+    m_outsideIncludes: []
+  m_additionalPragmas:
+    m_additionalPragmas: []
+    m_outsidePragmas: []
+  m_additionalDirectives:
+    m_validData: 0
+    m_isDirty: 1
+    m_moduleName: ' Additional Directives'
+    m_independentModule: 1
+    m_customEdited: 0
+    m_additionalDirectives: []
+    m_shaderFunctionDirectives: []
+    m_nativeDirectives: []
+    m_nativeDirectivesIndex: -1
+    m_nativeDirectivesFoldout: 0
+    m_directivesSaveItems: []
+  m_nodeCategory: 0
+  m_customHeader: 0
+  m_customHeaderColor: {r: 1, g: 0.4, b: 0, a: 1}
+  m_customNodeCategory: The Vegetation Engine
+  m_previewPosition: 0
+  m_hidden: 0
+  m_url: 
