@@ -13,10 +13,10 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 2000
   stringTagMap: {}
   disabledShaderPasses:
   - MOTIONVECTORS
@@ -25,7 +25,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_428769C5:
-        m_Texture: {fileID: 2800000, guid: d1eb363f2f6df2c40a27991e7957f3cf, type: 3}
+        m_Texture: {fileID: 2800000, guid: da90bf38035c82b40a0a18598f6894b3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_51A5283A:
@@ -58,12 +58,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - Vector1_83FED326: 6
+    - Vector1_83FED326: 8.56
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - Color_53D1B63C: {r: 0.032844037, g: 0.8867924, b: 0, a: 1}
-    - Color_BA81CAE: {r: 0.70710754, g: 1, b: 0.4198113, a: 1}
+    - Color_53D1B63C: {r: 0.032844037, g: 0.6, b: 0, a: 1}
+    - Color_BA81CAE: {r: 0.46019438, g: 0.8490566, b: 0.08170166, a: 1}
     - Vector2_8734B5F: {r: 5, g: 5, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
